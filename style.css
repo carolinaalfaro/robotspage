@@ -21,11 +21,9 @@ body {
 }
 .top-third {
 	margin: 0;
-	height: 15%;
+	height: 10%;
 	width: 100%;
 	display: flex;
-	border: 1px solid black;
-
 }
 .thirdmini-1 {
 	width: calc(100%/3);
@@ -160,6 +158,8 @@ width:25%;
 } 
 
 
+
+
 /*
 ul {
 	list-style-type:none;
@@ -208,7 +208,7 @@ ul {
 
 li {
 	color: #fff;
-  background: #6601C6;
+  background: #4B0082;
 	display: block;
 	float: left;
 	position: relative;
@@ -259,4 +259,10 @@ ul li ul li {
 	height: 100%;
 	width: 80%;
 	background-color: black;
-
+}
+.grow {
+	transition: all .1s ease-in-out;
+}
+.grow:hover{
+	transform: scale(1.1);
+}
